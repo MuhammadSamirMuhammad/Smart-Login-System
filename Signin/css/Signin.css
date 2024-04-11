@@ -1,0 +1,33 @@
+.bg-home{
+    background-color: #24353f;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.textColor{
+    color: #17a2b8;
+}
+.Boxsha{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control ,.form-control:focus{
+    background-color: transparent;
+    color: white;
+}
+.form-control::placeholder{
+    color: white;
+    opacity: .5;
+}
+.form-control:focus{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent ;
+}
+.btn-outline-info:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.contentLogin p a:hover{
+border-bottom: solid white 1px;
+}

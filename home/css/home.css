@@ -1,0 +1,20 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.Home-bg{
+    background-color: #24353f;
+    
+}
+.contentDiv h1 , .contentDiv p{
+    color: #17a2b8;
+    font-size: 2.5rem;
+   }
+
+
+   @media screen and (max-width:880px) {
+    .contentDiv h1 ,.contentDiv p{
+        font-size: 1.5rem;
+       }
+   }
